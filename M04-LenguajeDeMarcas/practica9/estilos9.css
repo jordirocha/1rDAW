@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.enlace{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.caja{
+    margin: 0px auto;
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+}
+
+.caja1{
+    width: 40%;
+    height: 45%;
+    border: 1px solid black;
+    float: left;
+    background: url(img/player.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja2{
+    border: 1px solid black;
+    width: 50%;
+    height: 25%;
+    float: left;
+    background: url(img/kill.gif);
+    background-position: center;
+    background-position-y: -8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja3{
+    border: 1px solid black;
+    width: 10%;
+    height: 100%;
+    float: right;
+    background: url(img/logos.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja4{
+    border: 1px solid black;
+    float: right;
+    width: 50%;
+    height: 40%;
+    background: url(img/kait.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja5{
+    border: 1px solid black;
+    width: 30%;
+    height: 55%;
+    float: left;
+    background: url(img/ram.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja6{
+    border: 1px solid black;
+    width: 10%;
+    height: 55%;
+    float: left;
+    background: url(img/history.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caja7{
+    border: 1px solid black;
+    width: 50%;
+    height: 35%;
+    float: right;
+    background: url(img/jd.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

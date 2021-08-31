@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+caption{
+    color: red;
+}
+
+table{
+    margin: 0px auto;
+    margin-bottom: 15px;
+    width: 45%;
+    height: 250px;
+    border-collapse: collapse;
+}
+
+td{
+    text-align: center;
+}
+
+.proven{
+    width: 20%;
+    margin-left: 24%;
+}
+
+.angles{
+    background-color: red;
+    padding-right: 5px;
+}
+
+.pati{
+    background-color: yellow;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.m02{
+    background-color: aqua;
+}
+
+.m03{
+    background-color: sienna;
+}
+
+.m04{
+    background-color: silver;
+}
+
+.cn{
+    background-color: steelblue;
+}
+
+.form{
+    padding: 10px;
+    width: 155px;
+    border-color: red;
+}
+
+.send{
+    padding: 3px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+form{
+    margin-left: 28%;
+}
+
+.grande:hover{
+    font-size: 25px;
+}
+
+span{
+    color: red;
+}
+
+th{
+    background:  linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    color: black;
+}
+
+.activo{
+    
+    margin-left: 28%;
+}
+
+.activo:link{
+    color: green;
+    text-decoration: none;
+}
+
+.activo:visited{
+    color: red;
+}

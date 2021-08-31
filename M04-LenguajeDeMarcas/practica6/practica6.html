@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulari Encuesta Professorat</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image"
+        content="http://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F43%2F32%2Fac%2F4332ac2048c16555423052e11ebc7ea4.png&f=1&nofb=1" />
+    <link rel="stylesheet" href="estilos6.css">
+    <link rel="stylesheet" href="UF1/practica6/estilos6.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        function buttononclick() {
+            alert("Has finalizado el formulario, muchas gracias por registrarte.")
+        }
+    </script>
+</head>
+
+<body>
+    <h1 class="titulo">Encuesta Professorat</h1>
+    
+    <section class="seccion">
+        <div id="imgn"></div>
+        <div id="formulario">
+            <form action="#" method="post">
+                <fieldset class="datos">
+                    <legend>DADES PERSONALS</legend>
+
+                    <label for="Nombre">Edat: *</label><br>
+                    <input class="datos-bottom" type="text" name="nombre" placeholder="Inseriu l'edat" required /><br>
+
+                    <label for="Email">Email:</label><br>
+                    <input class="datos-bottom barra-left" type="text" name="Email" /><br>
+
+                    <label for="Contrasenya">Contrasenya: *</label><br>
+                    <input class="datos-bottom barra-left" type="password" name="Contrasenya"
+                        placeholder="Inseriu la contrasenya" required /><br>
+
+                    <label for="Data">Data de naixement:</label><br>
+                    <input type="date" name="Data de naixement" />
+
+                    <p class="camps">* Camps obligatoris</p>
+                </fieldset>
+
+                <fieldset class="modulos">
+                    <legend>Moduls a evaluar</legend>
+
+                    <label for="Moduls">Moduls:</label><br>
+                    <input list="Moduls" name="Moduls" placeholder="Seleccionar">
+                    <datalist id="Moduls">
+                        <option label="FCT" value="FCT"></option>
+                        <option label="DUAL" value="DUAL"></option>
+                        <option label="Estidis-FCT" value="Estidis-FCT"></option>
+                        <option label="Treballo-Estudis" value="Treballo-Estudis"></option>
+                    </datalist>
+                    </input>
+                </fieldset>
+
+                <fieldset class="cicle">
+                    <legend>Cicle Formatiu</legend>
+
+                    <input type="radio" name="curso" id="ASIX">ASIX
+                    <input class="cicle-left" type="radio" name="curso">DAM
+                    <input class="cicle-left" type="radio" name="curso">DAW
+                    <input class="cicle-left" type="radio" name="curso">BIOINFORMÀTICA
+                </fieldset>
+
+                <fieldset class="profesor">
+                    <legend>Professor a avaluar</legend>
+
+                    <label for="Prosefor">Nom Professor: *</label><br>
+                    <input class="prof-bottom prof-left" type="text" name="profesor" id="profesor"
+                        placeholder="Inseriu nom" required><br>
+
+                    <label for="Grau">Grau de satisfacció del 0 al 10</label><br>
+                    <input class="prof-bottom" type="range" name="satisfaccio" id="satisfaccio"><br>
+
+                    <label for="comentaris">Comentaris</label><br>
+                    <textarea name="comentaris" id="comentaris" cols="55" rows="5"
+                        placeholder="Inseriu els comentaris"></textarea>
+                </fieldset>
+
+                <fieldset class="explica">
+                    <legend>Explica alguna cosa sobre tu</legend>
+
+                    <label for="explica">Ets repetidor?</label><br>
+                    <input class="expli-bottom" type="radio" name="explica">Sí
+                    <input class="expli-left" type="radio" name="explica">No<br>
+
+
+                    <label for="color">Color preferit</label><br>
+                    <input class="expli-bottom" type="color" name="color" id="color"><br>
+
+                    <label for="webdireccio">Direcció Web</label><br>
+                    <input class="expli-bottom" type="url" name="webdireccio" id="webdireccio"
+                        placeholder="https://exemple.com"><br>
+
+                    <label for="Curso">Situació actual:</label><br>
+                    <input list="Situació-actual" name="Situació-actual" placeholder="Seleccionar curso">
+                    <datalist id="Situació-actual">
+                        <option label="Estudis" value="Estudis"></option>
+                        <option label="FCT" value="FCT"></option>
+                        <option label="DUAL" value="DUAL"></option>
+                        <option label="Estidis-FCT" value="Estidis-FCT"></option>
+                        <option label="Treballo-Estudis" value="Treballo-Estudis"></option>
+                    </datalist>
+                    </input><br>
+
+                    <input class="expli-bottom" type="file" name="fichero">
+                </fieldset>
+
+                <fieldset class="curse">
+                    <legend>Cursos extres</legend>
+
+                    <input class="curse-left" type="checkbox" name="curso-extra"><img class="lenguajes"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1280px-ISO_C%2B%2B_Logo.svg.png"
+                        alt="c++" />
+                    <input class="curse-left" type="checkbox" name="curso-extra"><img class="lenguajes"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_Sharp_logo.svg/1280px-C_Sharp_logo.svg.png"
+                        alt="c#" />
+                    <input class="curse-left" type="checkbox" name="curso-extra"><img class="lenguajes"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Unity_Technologies_logo.svg/2560px-Unity_Technologies_logo.svg.png"
+                        alt="unity" />
+                    <input class="curse-left" type="checkbox" name="curso-extra"><img class="lenguajes"
+                        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fsqlbackupandftp.com%2Fblog%2Fwp-content%2Fuploads%2F2015%2F01%2Fmysql-logo_2800x2800_pixels1-1024x1024.png&f=1&nofb=1"
+                        alt="sql" />
+                    <input class="curse-left" type="checkbox" name="curso-extra"><img class="lenguajes"
+                        src="https://enetic.es/wp-content/uploads/2014/02/Microsoft-Azure-productos.png" alt="cloud" />
+                    <input class="curse-left" type="checkbox" name="curso-extra"><img class="lenguajes"
+                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fd%2Fd5%2FRust_programming_language_black_logo.svg%2F768px-Rust_programming_language_black_logo.svg.png&f=1&nofb=1"
+                        alt="rust" />
+                </fieldset>
+
+                <fieldset class="data">
+                    <legend>Data Enquesta</legend>
+
+                    <label for="data">Data: </label>
+                    <input type="date" name="data" id="data">
+
+                    <label for="hora">Hora</label>
+                    <input type="time" name="hora" id="hora">
+                </fieldset>
+
+                <fieldset class="buttons">
+                    <legend></legend>
+                    <button type="submit" value="Click me" onclick="buttononclick()">Enviar</button>
+                    <button type="reset">Esborrar</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

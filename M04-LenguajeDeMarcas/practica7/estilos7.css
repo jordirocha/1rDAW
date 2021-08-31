@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    min-width: 770px;
+}
+
+/*Inicio Navegación*/
+#nav{
+    position: fixed;
+    width: 90%;
+    height: 60px;
+    background: black;
+    margin-left: 10%;
+    z-index: 5; /*A la hora de bajar la barra de navegación oculte las imágenes*/
+}
+
+.navegation li{
+    line-height: 60px;
+    display: inline-block;
+    margin-right: 120px;
+}
+
+.navegation li:first-of-type{
+    margin-left: 15px;
+}
+
+.navegation li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+/*Fin Navegación*/
+
+/*Inicio Barra de Navegación Lateral*/
+#aside{
+    /*border: 1px solid black;*/
+    width: 10%;
+    height: 600px;
+    float: left;
+}
+
+.img-log{
+    margin: 0px auto;
+    margin-top: 5px;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+    background: url(img/log.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lateral-menu{
+    position: fixed;
+    border: 1px solid black;
+    border-radius: 0px 6px 6px 0px; 
+    width: 9.5%;
+    height: 300px;
+    margin-top: 400px;
+    margin-left: 5px;
+    font-size: 16px;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+.navegation-lateral li{
+    text-align: center;
+    padding: 2px;
+    list-style: none;
+}
+
+.navegation-lateral li:first-of-type{
+    margin-top: 25px;
+}
+
+.navegation-lateral li a{
+   text-decoration: none;
+    color: white;
+}
+/*Fin Barra de Navegación Lateral*/
+
+/*Inicio Contenido Central*/
+#section{
+    margin-top: 60px;
+    width: 90%;
+    height: 950px;
+    float: right;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+.card{
+    margin-top: 15%;
+    border-radius: 7px;
+    width: 25%;
+    float: right;
+    border: 1.5px solid black;
+    height: 350px; /*  350px Cambios*/
+    background-color: white;
+}
+
+.imagen1, .imagen2, .imagen3, .imagen4{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    height: 290px;
+    margin: 0px auto;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.imagen1{ 
+  background: url(img/drone3.png);
+  background-position-y: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.imagen2{
+    background: url(img/uzil.jpg);
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen3{
+    background: url(img/drone2.png);
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagen4 video{
+    width: 100%;
+}
+
+.card .desc{
+    line-height: 45px;
+    text-align: center;
+}
+
+.card-rotation1{
+    transform: rotate(20deg);
+    position: absolute;
+    top: 150px;
+    right: 22%;
+    z-index: 1;
+}
+
+.card-rotation2{
+    transform: rotate(-10deg);
+    z-index: 2;
+    position: absolute;
+    right: 32%;
+}
+
+.card-rotation3{
+    transform: rotate(50deg);
+    position: absolute;
+    top: 50px;
+    right: 40%;
+    z-index: 3;
+}
+
+.card-rotation4{
+    transform: rotate(-40deg);
+    position: absolute;
+    top: 1px;
+    right: 50%;
+    z-index: 4;
+}
+/*Fin Contenido Central*/

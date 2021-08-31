@@ -1,0 +1,202 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+}
+
+/*Inicio de la Navegación*/
+#nav{
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    border-top: 2px solid #9bc848;
+}
+/*Estilos generales*/
+#nav a{
+    display: block;
+    padding: 0px 30px;
+    color: white;
+    transition: .3s;
+    text-decoration: none;
+}
+
+#nav li{
+    line-height: 55px;
+    position: relative;
+}
+
+#nav li ul{
+    position: absolute;
+    display: none;
+}
+
+#nav a:hover{
+    background: #9bc848;
+}
+
+#nav li:hover ul{
+    display: block;
+}
+/*Primero nivel*/
+#nav .menu{
+    background: #333;
+    float: left;
+    /*display: table;*/
+    width: auto;
+}
+
+#nav > .menu > li{
+    float: left;
+}
+/*Segundo nivel*/
+#nav li li{
+    background: #333;
+    width: 230px;
+}
+
+/*Inicio Lupa Derecha*/
+.box-boton{
+    height: 55px;
+    width: auto;
+    float: right;
+    background-color: #333;
+}
+
+.lupa{
+    width: 30px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.search{
+    background: #333;
+    padding: 10px;
+    height: 55px;
+    float: right;
+    width: 0px;
+    visibility: hidden;
+    position: absolute;
+}
+
+.box-boton:hover .search{
+    transition: .5s;
+    visibility: initial;
+    background: #9bc848;
+    width: 150px;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+    font-size: 13px;
+}
+
+/*Fin de la Navegación*/
+
+/*Descripción de la página*/
+#article{
+    padding: 20px;
+    margin: 0px auto;   
+    border-top: 2px solid #9bc848;
+    border-left:  2px solid #9bc848;
+    border-right:  2px solid #9bc848;
+    width: 95%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+}
+
+#article > p{
+    text-align: justify;
+}
+
+.xbox{
+    width: 10%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+/*Descripción de la página*/
+
+/*Inicio de Contenido Central*/
+#section{
+    margin: 0px auto;
+    border: 2px solid #9bc848;
+    width: 95%;
+    height: 450px;
+    overflow: hidden;
+}
+/*De la izquierda*/
+.img1, .img4, .img5, .img6{
+    border: 1px solid #9bc848;
+    width: 20%;
+    height: 50%;
+}
+/*De la derecha*/
+.img2{
+    border: 1px solid #9bc848;
+    height: 100%;
+    width: 25%;
+} 
+
+.img3{
+    border: 1px solid #9bc848;
+    width: 35%;
+    height: 100%;
+}
+
+.img1{
+    float: left;
+    background: url(https://media.giphy.com/media/S44LqdQWtVZ7lmTfwO/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4{
+    float: left;
+    background: url(https://thumbs.gfycat.com/ColorlessGlumBlackfootedferret-max-1mb.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img5{
+    float: left;
+    background: url(https://media.giphy.com/media/W05iUdqyFujrRFgnn1/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img6{
+    float: right;
+    background: url(https://media.giphy.com/media/dzJUEvTSd1J7VTA7M2/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*De la derecha*/
+.img2{
+    float: right;
+    background: url(https://media.giphy.com/media/j3Q8nme9WXsHKEs7yN/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 0px;
+}
+
+.img3{
+    float: right;
+    background: url(https://media.giphy.com/media/iJtMmqaxdo35ANZ8zW/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Fin de Contenido Central*/

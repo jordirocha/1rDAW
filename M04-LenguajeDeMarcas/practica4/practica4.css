@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*body{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+/*Canvios según el ejercicio 4*/
+.titulo{
+    text-align: center;
+}
+
+img{
+   width: 50px;
+   display: block;
+   margin: auto;
+}
+
+.green{
+    background:  linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    color: black;
+}
+
+.gray{
+    background: rgb(184, 181, 181);
+    font-size: 20px;
+    color: white; 
+    text-align: center;
+}
+
+#red{
+    color: red;
+    list-style: none;
+    text-align: center;
+}
+
+#yellow{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: yellow;
+}
+
+.blue{
+    background: blue;
+}
+
+table{
+    width: 60%;
+    margin: 0px auto;
+    border-collapse: collapse;
+    margin-top: 35px;   
+}
+/*Canvios según el ejercicio 4*/
+li{
+    padding-bottom: 10px;
+}
+
+
+

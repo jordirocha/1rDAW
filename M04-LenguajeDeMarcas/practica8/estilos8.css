@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    min-width: 868px; /*Tamaño minímo*/
+}
+/*Inicio Cabecera*/
+#header{
+    text-align: center;
+    font-size: 1.25em;
+    padding: 10px;
+}
+/*Fin Cabecera*/
+
+/*Inicio Navegación*/
+#nav{
+    background-color: black;
+    height: 50px;
+}
+
+.p-menu li{
+    float:left;
+    padding:5px 10px;
+    line-height: 40px;
+    list-style: none;
+}
+
+.p-menu li a{
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+.p-menu li a:hover{
+    font-weight: bolder;
+}
+/*Fin Navegación*/
+
+/*Inicio Navegación Lateral*/
+#aside{
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 10%;
+    height: 650px; /*Cambiado*/
+    float: left;
+    background-color: black;
+}
+
+.s-menu li{
+    display: block;
+    float: left;
+    padding: 20px 10px;
+    width: 100%;
+    list-style: none;
+}
+
+.s-menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.s-menu li a:hover{
+    font-weight: bolder;
+}
+/*Fin Navegación Lateral*/
+
+/*Inicio Contenido Central*/
+#section{
+    margin-top: 30px;
+    /*border: 1px solid black;*/
+    width: 90%;
+    height: 650px; /*Cambiado*/
+    float: right;
+}
+
+.article{
+    width: 30%;
+    height: 500px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 5px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.div-img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.fondo1{
+    background-image: url(img/gears.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondo2{
+    background-image: url(img/tactics.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fondo3{
+    background-image: url(img/kait.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.article .desc{
+    border-top: 1px solid black;
+    text-align: justify;
+    padding: 10px;
+}
+
+.caja-texto{
+    margin-top: 10px;
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-right: 5px;
+}
+
+
+/*Inicio Contenido Central*/
+
+/*Inicio Pie de Página*/
+#footer{
+    background-color: rgb(228, 106, 106);
+    width: 100%;
+    border: 1px solid black;
+    font-weight: bolder;
+    padding: 20px;
+    text-align: center;
+    /*position: absolute;
+    bottom: 0px;*/
+}
+
+#footer a{
+    text-decoration: none;
+}
+/*Fin Pie de Página*/
