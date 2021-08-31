@@ -1,2 +1,2 @@
 *.sql linguist-detectable=true
-*.xml linguist-detectable=true
+*.xsd linguist-detectable=true
