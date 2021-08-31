@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio donde subiremos nuestras prácticas hechas en clase.">
+    <meta name="KEYWORDS" content="HTML5,tablas,css3,css,Bootstrap 4">
+    <title>Examen UF1 M04</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="http://jordirocha.tk/index.html" target="_blank"><img src="img/logo.png" alt="logo"></a>
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="">PORTADA</a>
+                <ul>
+                    <li><a href="">SOBRE NOSOTROS</a></li>
+                    <li><a href="">MAS NOTICIAS</a></li>
+                    <li> <a href="#">SOBRE LA PORTADA</a></li>
+                    <li><a href="#">MÁS INFO</a></li>
+                </ul>
+            </li>
+            <li><a href="">LOCAL</a></li>
+            <li><a href="#">SOCIETAT</a></li>
+            <li><a href="#">SUCCESSOS</a></li>
+            <li><a href="#">POLÍTICA</a></li>
+            <li><a href="#">ECONOMIA</a></li>
+            <li><a href="#">CULTURA</a></li>
+            <li><a href="#">ESPORTS</a></li>
+        </ul>
+    </nav>
+
+    <div style="clear: both"></div>
+
+    <section id="principal">
+        <article class="tabla">
+            <h2>Contaminants <span>Toxics</span> a l'aire</h2>
+            
+            <table border="1">
+                <tr>
+                    <th rowspan="3">Country</th>
+                    <th rowspan="2">Exposure </br> Estimats</th>
+                    <th colspan="2">Indicador pm2.5</th>
+                </tr>
+
+                <tr>
+                    <th>annual mean</th>
+                    <th>premature deaths</th>
+
+                </tr>
+                <tr>
+                    <th>%</th>
+                    <th>C0=0</th>
+                    <th>C0=2.5</th>
+                </tr>
+
+                <tr>
+                    <td>Italy</td>
+                    <td>15.8</td>
+                    <td>59.630</td>
+                    <td>50.500</td>
+                </tr>
+
+                <tr>
+                    <td>Spain</td>
+                    <td>10.7</td>
+                    <td>23.180</td>
+                    <td>17.910</td>
+                </tr>
+
+                <tr>
+                    <td>Germany</td>
+                    <td>13.4</td>
+                    <td>766.080</td>
+                    <td>54.180</td>
+                </tr>
+
+                <tr>
+                    <td>Germany</td>
+                    <td>24</td>
+                    <td>13.620</td>
+                    <td>12.280</td>
+                </tr>
+            </table>
+        </article>
+
+        <article id="news">
+            <div class="anuncio">
+                <img src="img/imagen1.jpg" alt="foto">
+
+                <p>Catalunya prevé una tercera ola si no se cumplen las restricciones en Navidad</p>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/imagen2.jpg" alt="foto">
+
+                <p>El apoyo a un posible acuerdo del Brexit abre otra crisis en el Labour</p>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/imagen3.jpg" alt="foto">
+
+                <p>Las vacaciones en 2021 serán menos, más largas y más cerca de casa</p>
+            </div>
+
+            <div class="anuncio">
+                <img src="img/imagen4.jpg" alt="foto">
+
+                <p>The Bee Gees, tres hermanos, una banda</p>
+            </div>
+        </article>
+    </section>
+
+    <div style="clear: both"></div>
+
+    <section id="galeria">
+        <h2>Galeria d'imatges</h2>
+
+        <div class="foto-galeria">
+            <img class="foto1" src="img/galeria1.jpg" alt="">
+        </div>
+
+        <div class="foto-galeria">
+            <img class="foto1" src="img/galeria2.jpg" alt="">
+        </div>
+
+        <div class="foto-galeria">
+            <img class="foto1" src="img/galeria3.jpg" alt="">
+        </div>
+
+        <div class="foto-galeria">
+            <img class="foto1" src="img/galeria4.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="formulario">
+        <h2>Vols rebre alertes de Notícies?</h2>
+
+        <form>
+            <label for="Email">Email</label><br>
+            <input class="datos-bottom" type="email"><br>
+
+            <label for="Contraseña">Contrasenya de Registre*</label><br>
+            <input class="datos-bottom" type="password" required><br>
+
+            <label for="noticias">Que tipus de noticies t'agraden?</label><br>
+            <input class="datos-bottom" list="noticies" name="noticies" placeholder="Seleccionar">
+            <datalist id="noticies">
+                <option value="Esport"></option>
+                <option value="Ciencia"></option>
+                <option value="Baile"></option>
+                <option value="Social"></option>
+            </datalist><br>
+
+            <label for="edad">Eres mayor de edad?</label><br>
+            <input type="radio" name="edad"> SI
+            <input type="radio" name="edad"> NO <br>
+
+            <label for="verificacion">Verificacion</label><br>
+            <input class="curse-left" type="checkbox" required><br>
+
+            <label for="texto">Añadir texto:</label><br>
+            <textarea name="" id="" cols="25" rows="5"></textarea><br>
+
+            <button type="submit" class="enviar" onclick="alert('Hello World!')">Registrar-se</button>
+            <button type="reset" class="enviar">Reset</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="nombre">Jordi Rocha</p>
+        <p class="fecha">Data: 30/11/2020</p>
+    </footer>
+
+</body>
+
+</html>

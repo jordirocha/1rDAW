@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="NFL">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="super_bowl" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="super_bowl">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="date" type="xs:date"/>
+                <xs:element name="city" type="xs:string"/>
+                <xs:element name="zip_code">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[A-Z]{2}-[0-9]{3}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element ref="team" maxOccurs="2"/>
+                <xs:element ref="entertiment" />
+                <xs:element ref="edition"/>                     
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="team">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="points" type="xs:positiveInteger"/>
+                <xs:element name="winner" type="xs:token" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="conference" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="NFC|AFC"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="entertiment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="group" type="xs:string" minOccurs="0"/>
+                <xs:element name="artist" type="xs:string" minOccurs="0" maxOccurs="3"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>    
+    
+    <xs:element name="edition">
+        <xs:complexType>
+            <xs:simpleContent>               
+                <xs:extension base="xs:positiveInteger">
+                    <xs:attribute name="year">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:integer">
+                                <xs:minInclusive value="2016"/>
+                                <xs:maxInclusive value="2020"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+   
+</xs:schema>

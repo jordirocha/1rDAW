@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE expedients SYSTEM "exadtd.dtd">
+<expedients>
+    <cicle id="DAW">
+        <alumne>
+            <institut>IES Provenzana</institut>
+            <anyacademic>2020</anyacademic>
+            <matricula matri="AA5">
+                <modul codi="B1" nota="5" matri="AA5">
+                    <nom>m04</nom>
+                    <professor>sergi</professor>
+                </modul>
+                <modul codi="B2" nota="8" matri="AA5">
+                    <nom>m01</nom>
+                    <professor>montesinos</professor>
+                </modul>
+                <modul codi="B3" matri="AA5">
+                    <nom>m01</nom>
+                </modul>
+            </matricula>
+            <dadesalumne>
+                <dni>49324243A</dni>
+                <nombre>Jordi</nombre>
+                <cognom>rocha</cognom>
+                <estudis previs="eso"/>
+                <telefons>632222554</telefons>
+                <email te="si">jordi@gmail.com</email>
+            </dadesalumne>
+        </alumne>       
+        <alumne>
+            <institut>IES Provenzana</institut>
+            <anyacademic>2020</anyacademic>
+            <matricula matri="AA6">
+                <modul codi="B21" nota="7" matri="AA6">
+                    <nom>m03</nom>
+                    <professor>Jordi</professor>
+                </modul>
+                <modul codi="B22" nota="5" matri="AA6">
+                    <nom>m04</nom>
+                    <professor>Jordi</professor>
+                </modul>
+                <modul codi="B24" nota="4" matri="AA6">
+                    <nom>m01</nom>
+                    <professor>Matias</professor>
+                </modul>
+            </matricula>
+            <dadesalumne>
+                <dni>43252443A</dni>
+                <nombre>Alan</nombre>
+                <cognom>padilla</cognom>
+                <cognom>gonzalez</cognom>
+                <estudis previs="cfgm"/>
+                <telefons>632223424</telefons>
+                <email te="no"></email>
+            </dadesalumne>
+        </alumne>
+    </cicle>
+    <cicle id="DAM">
+        <alumne>
+            <institut>IES Provenzana</institut>
+            <anyacademic>2020</anyacademic>
+            <matricula matri="AA7">
+                <modul codi="B11" nota="5" matri="AA7">
+                    <nom>m06</nom>
+                    <professor>Bardaji</professor>
+                </modul>
+                <modul codi="B15" matri="AA7">
+                    <nom>m06</nom>
+                </modul>
+                <modul codi="B16" nota="9" matri="AA7">
+                    <nom>m06</nom>
+                    <professor>Dani</professor>
+                </modul>
+            </matricula>
+            <dadesalumne>
+                <dni>49324243A</dni>
+                <nombre>Jordi</nombre>
+                <cognom>rocha</cognom>
+                <estudis previs="eso"/>
+                <telefons>632222554</telefons>
+                <email te="si">jordi@gmail.com</email>
+            </dadesalumne>
+        </alumne>       
+        <alumne>
+            <institut>IES Provenzana</institut>
+            <anyacademic>2020</anyacademic>
+            <matricula matri="AA8">
+                <modul codi="B28" nota="7" matri="AA8">
+                    <nom>m03</nom>
+                    <professor>Jordi</professor>
+                </modul>
+                <modul codi="B27" nota="6" matri="AA8">
+                    <nom>m13</nom>
+                    <professor>Ildar</professor>
+                </modul>
+                <modul codi="B26" nota="7" matri="AA8">
+                    <nom>m01</nom>
+                    <professor>laura</professor>
+                </modul>
+            </matricula>
+            <dadesalumne>
+                <dni>43252443A</dni>
+                <nombre>javi</nombre>
+                <estudis previs="batxillerat"/>
+                <email te="si">javi@gmail.com</email>
+            </dadesalumne>
+        </alumne>
+    </cicle>
+    <cicle id="ASIX">
+        <alumne>
+            <institut>IES Provenzana</institut>
+            <anyacademic>2021</anyacademic>
+            <matricula matri="AA9">
+                <modul codi="B01" matri="AA9">
+                    <nom>m01</nom>
+                </modul>
+                <modul codi="B02" nota="2" matri="AA9">
+                    <nom>m05</nom>
+                    <professor>Pedro</professor>
+                </modul>
+                <modul codi="B03" nota="10" matri="AA9">
+                    <nom>m09</nom>
+                    <professor>David</professor>
+                </modul>
+            </matricula>
+            <dadesalumne>
+                <dni>43252443A</dni>
+                <nombre>Carlos</nombre>
+                <estudis></estudis>
+                <email te="si">carlos@gmail.com</email>
+            </dadesalumne>
+        </alumne>
+        <alumne>
+            <institut>IES Provenzana</institut>
+            <anyacademic>2021</anyacademic>
+            <matricula matri="AA1">
+                <modul codi="B77" nota="6" matri="AA1">
+                    <nom>m11</nom>
+                    <professor>Pulido</professor>
+                </modul>
+                <modul codi="B55" nota="10" matri="AA1">
+                    <nom>m35</nom>
+                    <professor>Dani</professor>
+                </modul>
+                <modul codi="B95" nota="5" matri="AA1">
+                    <nom>m01</nom>
+                    <professor>Molla</professor>
+                </modul>
+            </matricula>
+            <dadesalumne>
+                <dni>43252443A</dni>
+                <nombre>Carlos</nombre>
+                <cognom>javier</cognom>
+                <cognom>garcia</cognom>
+                <estudis previs="eso"/>
+                <email te="no"></email>
+            </dadesalumne>
+        </alumne>
+    </cicle>
+</expedients>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NFL xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NFL.xsd">
+    <super_bowl>
+
+        <date>2016-02-07</date>
+        <city>Santa Clara</city>
+        <zip_code>CA-240</zip_code>
+    
+        <team conference="AFC">
+            <name>Denver Broncos</name>
+            <points>24</points>
+            <winner/>
+        </team>
+    
+        <team conference="NFC">
+            <name>Carolina Panthers</name>
+            <points>10</points>
+        </team>
+    
+        <entertiment>
+            <group>Coldplay</group>
+            <artist>Beyonce</artist>
+        </entertiment>
+        <edition year="2016">50</edition>
+    </super_bowl>
+  
+    <super_bowl>
+    
+        <date>2017-02-05</date>
+        <city>Houston</city>
+        <zip_code>TX-430</zip_code>
+    
+        <team conference="AFC">
+            <name>New England Patriots</name>
+            <points>34</points>
+            <winner/>
+        </team>
+    
+        <team conference="NFC">
+            <name>Atlanta Falcons</name>
+            <points>28</points>
+        </team>
+        <entertiment>
+            <artist>Lady Gaga</artist>
+        </entertiment>
+        <edition year="2017">51</edition>
+    </super_bowl>
+  
+    <super_bowl>
+    
+        <date>2018-02-04</date>
+        <city>Minneapolis</city>
+        <zip_code>MA-076</zip_code>
+    
+        <team conference="NFC">
+            <name>Philadelphia Eagles</name>
+            <points>41</points>
+            <winner/>
+        </team>
+    
+        <team conference="AFC">
+            <name>New England Patriots</name>
+            <points>33</points>
+        </team>
+    
+        <entertiment>
+            <artist>Justin Timberlake</artist>
+        </entertiment>
+        <edition year="2018">52</edition>
+    </super_bowl>
+  
+    <super_bowl>
+    
+        <date>2019-02-03</date>
+        <city>Atlanta</city>
+        <zip_code>GE-127</zip_code>
+    
+        <team conference="AFC">
+            <name>New England Patriots</name>
+            <points>13</points>
+            <winner/>
+        </team>
+    
+        <team conference="NFC">
+            <name>Los Angeles Rams</name>
+            <points>3</points>
+        </team>
+    
+        <entertiment>
+            <group>Maroon 5</group>
+        </entertiment>
+        <edition year="2019">53</edition>
+    </super_bowl>
+</NFL>

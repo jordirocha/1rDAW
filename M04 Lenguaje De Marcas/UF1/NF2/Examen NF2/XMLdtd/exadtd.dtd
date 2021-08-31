@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT expedients (cicle+)>
+<!ATTLIST cicle id (DAW|DAM|DAWBIO|ASIX) #REQUIRED>
+
+<!ELEMENT cicle (alumne*)>
+<!ELEMENT alumne (institut,anyacademic,matricula+,dadesalumne)>
+<!ELEMENT institut (#PCDATA)>
+<!ELEMENT anyacademic (#PCDATA)>
+
+<!ATTLIST matricula matri ID #REQUIRED>
+<!ELEMENT matricula (modul+)>
+<!ATTLIST modul codi ID #REQUIRED>
+<!ATTLIST modul nota CDATA #IMPLIED>
+<!ATTLIST modul matri IDREF #REQUIRED>
+
+<!ELEMENT modul (nom+, professor?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT professor (#PCDATA)>
+
+<!ELEMENT dadesalumne (dni,nombre,cognom*,estudis,telefons*,email)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cognom (#PCDATA)>
+<!ELEMENT telefons (#PCDATA)>
+<!ELEMENT estudis EMPTY>
+<!ATTLIST estudis previs (eso|batxillerat|cfgm) #IMPLIED>
+<!ATTLIST email te (si|no) #REQUIRED>
+<!ELEMENT email (#PCDATA)>
+
