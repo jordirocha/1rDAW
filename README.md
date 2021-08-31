@@ -1,2 +1,4 @@
 # CFGS Desarrollo de Aplicaciones Web
-Apuntes de todo el curso formativo superior
+Temario, apuntes, examenes y ejercicios del módulo de Desarrollo de Aplicaciones Web (DAW)
+
+
