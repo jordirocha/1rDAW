@@ -1,2 +1,3 @@
 *.sql linguist-detectable=true
 *.xsd linguist-detectable=true
+*.xq linguist-detectable=true
